@@ -3,9 +3,163 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Checklist</title>
+    <title> primeiros socorros - Checklist</title>
 </head>
 <body>
+    <header>
+        <h1>Checklist de Primeiros Socorros</h1>
+        <p>Itens essenciais para um kit de primeiros socorros.</p>
+
+         <nav>
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="checklist.html">Checklist</a></li>
+            <li><a href="emergencias.html">Emergências</a></li>
+            <li><a href="prevencao.html">Prevenção</a></li>
+        </ul>
+    </nav>
+    </header>
+    <main>
+<section>
+        <h2>Itens Essenciais para um Kit de Primeiros Socorros</h2>
+        <p>Um kit de primeiros socorros deve conter os seguintes itens:</p>
+        <ul>
+            <li>Curativos adesivos (band-aids) de vários tamanhos</li>
+            <li>Gaze estéril e fita adesiva</li>
+            <li>Antisséptico (álcool ou solução antisséptica)</li>
+            <li>Luvas descartáveis</li>
+            <li>Tesoura e pinça</li>
+            <li>Termômetro</li>
+            <li>Analgésicos e anti-inflamatórios</li>
+            <li>Manual de primeiros socorros</li>
+        </ul>
+
+        <h2>Formulário de avaliação</h2>
+         <article>
+
+            <form action="#" method="post" enctype="multipart/form-data">
+
+                <fieldset>
+
+                    <legend>Seus dados</legend>
+
+                    <label for="nome">Nome:</label>
+
+                    <input
+                        type="text"
+                        id="nome"
+                        name="nome"
+                        placeholder="Digite seu nome"
+                        required
+                    >
+
+                    <br><br>
+
+                    <label for="data">Data:</label>
+
+                    <input
+                        type="date"
+                        id="data"
+                        name="data"
+                        required
+                    >
+
+                </fieldset>
+
+
+                <br>
+
+
+                <fieldset>
+
+                    <legend>Conhecimentos</legend>
+
+                    <label for="situacao">
+                        Qual situação você gostaria de estudar?
+                    </label>
+
+                    <br>
+
+                    <input
+                        list="situacoes"
+                        id="situacao"
+                        name="situacao"
+                        placeholder="Escolha ou digite uma situação"
+                        required
+                    >
+
+                    <datalist id="situacoes">
+
+                        <option value="Sangramento">
+                        <option value="Queimadura">
+                        <option value="Engasgo">
+                        <option value="Desmaio">
+                        <option value="Fratura">
+
+                    </datalist>
+
+                    <br><br>
+
+                    <label for="conhecimento">
+                        Qual seu nível de conhecimento sobre primeiros socorros?
+                    </label>
+
+                    <br>
+
+                    <input
+                        type="range"
+                        id="conhecimento"
+                        name="conhecimento"
+                        min="0"
+                        max="10"
+                        value="5"
+                    >
+
+                    <br><br>
+
+                    <label for="arquivo">
+                        Envie um arquivo relacionado ao projeto:
+                    </label>
+
+                    <br>
+
+                    <input
+                        type="file"
+                        id="arquivo"
+                        name="arquivo"
+                    >
+
+                </fieldset>
+
+
+                <br>
+
+
+                <fieldset>
+
+                    <legend>Resposta</legend>
+
+                    <label for="resposta">
+                        O que você deve fazer antes de ajudar alguém?
+                    </label>
+
+                    <br><br>
+
+                    <textarea
+                        id="resposta"
+                        name="resposta"
+                        rows="5"
+                        cols="40"
+                        placeholder="Digite sua resposta..."
+                        required
+                    ></textarea>
+
+                </fieldset>
+
+
+
+    </main>
+    <a href="index.html">Voltar para a página inicial</a>
     
 </body>
 </html>
