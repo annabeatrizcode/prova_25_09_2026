@@ -1,8 +1,6 @@
-<<<<<<< HEAD
+
 # prova_25_09_2026
-=======
- # prova_25_09_2026
->>>>>>> b5bda4647cb989c2fd858465bc90f965b0acc7a5
+
 # Primeiros Socorros
 
 ## Sobre o projeto
