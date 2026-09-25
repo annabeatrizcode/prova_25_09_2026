@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # prova_25_09_2026
+=======
+ # prova_25_09_2026
+>>>>>>> b5bda4647cb989c2fd858465bc90f965b0acc7a5
 # Primeiros Socorros
 
 ## Sobre o projeto
@@ -39,4 +43,9 @@ Foram utilizados recursos do HTML5, como:
 
 O objetivo é **informar e conscientizar** sobre cuidados básicos, prevenção de acidentes e atitudes importantes em situações de emergência.
 
+<<<<<<< HEAD
 © 2026 Projeto Primeiros Socorros. Todos os direitos reservados.
+=======
+© 2026 Projeto Primeiros Socorros. Todos os direitos reservados.
+
+>>>>>>> b5bda4647cb989c2fd858465bc90f965b0acc7a5
